@@ -1,0 +1,47 @@
+🪨 Sonar Rock vs Mine – Machine Learning Classifier
+This project is a binary classification model that uses machine learning to distinguish between sonar signals bounced off metal cylinders (mines) and rocks. It is based on the Sonar dataset from the UCI Machine Learning Repository.
+
+📊 Dataset
+Source: UCI Sonar Dataset
+
+Features: 60 numerical attributes representing sonar signal energy at different frequencies
+
+Target:
+
+R = Rock
+
+M = Mine
+
+🧠 Model
+Algorithm: Logistic Regression
+
+Libraries Used:
+
+pandas for data handling
+
+scikit-learn for model training and evaluation
+
+🔍 Workflow
+Load and explore the dataset
+
+Preprocess and split into training/testing sets
+
+Train a logistic regression model
+
+Evaluate accuracy on both sets
+
+Build a prediction system for new inputs
+
+✅ Results
+Training Accuracy: ~83.7%
+
+Testing Accuracy: ~85.7%
+
+The model can predict whether a sonar signal is likely from a rock or a mine.
+
+🚀 How to Use
+Upload sonar_data.csv to your Colab environment
+
+Run the notebook to train and test the model
+
+Use the prediction cell to classify new sonar readings
